@@ -1,0 +1,45 @@
+[
+  {
+    "username": "admin",
+    "email": "admin@some.domain",
+    "firstName": "Arnold",
+    "lastName": "Administrator",
+    "organization": "reclaim-hosting",
+    "slug": "adminsomedomain",
+    "role": "admin",
+    "admin": true,
+    "createdUser": 1,
+    "updatedUser": 1
+  },
+  {
+    "username": "demo",
+    "email": "demo@some.domain",
+    "firstName": "John",
+    "lastName": "Doe",
+    "organization": "reclaim-hosting",
+    "slug": "demosomedomain",
+    "role": "user",
+    "admin": false,
+    "createdUser": 1,
+    "updatedUser": 1
+  },
+  {
+    "firstName": "Kin",
+    "lastName": "Lane",
+    "organization": "api-evangelist",
+    "email": "kinlane@gmail.com",
+    "department": "Technology",
+    "streetAddress": "1234 There Street",
+    "postalCode": "95555",
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "US",
+    "slug": "kinlanegmailcom",
+    "telephone": "555-555-5555",
+    "role": "admin",
+    "username": "kinlane",
+    "admin": true,
+    "createdUser": 1,
+    "updatedUser": 1
+  }
+]
