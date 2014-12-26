@@ -21,34 +21,10 @@ module.exports.policies = {
     // Default policy for all controllers and actions
     '*':                    ['authenticated'],
 
-    // Author controller
+    // Auth controller
     AuthController: {
         '*':                ['passport'],
         'checkPassword':    ['authenticated']
-    },
-
-    // Author controller
-    AuthorController: {
-        '*':                ['authenticated'],
-        'find':             ['authenticated'],
-        'findOne':          ['authenticated'],
-        'create':           ['authenticated', 'isAdmin', 'addDataCreate'],
-        'update':           ['authenticated', 'isAdmin', 'addDataUpdate'],
-        'destroy':          ['authenticated', 'isAdmin'],
-        'add':              ['authenticated', 'isAdmin'],
-        'remove':           ['authenticated', 'isAdmin']
-    },
-
-    // Book controller
-    BookController: {
-        '*':                ['authenticated'],
-        'find':             ['authenticated'],
-        'findOne':          ['authenticated'],
-        'create':           ['authenticated', 'isAdmin', 'addDataCreate'],
-        'update':           ['authenticated', 'isAdmin', 'addDataUpdate'],
-        'destroy':          ['authenticated', 'isAdmin'],
-        'add':              ['authenticated', 'isAdmin'],
-        'remove':           ['authenticated', 'isAdmin']
     },
 
     // User controller
